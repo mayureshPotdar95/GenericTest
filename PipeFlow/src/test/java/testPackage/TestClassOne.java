@@ -9,7 +9,7 @@ public class TestClassOne {
 	public void firstTest()
 	{
 		SoftAssert softAssert = new SoftAssert();
-		System.out.println("Test has started");
+		System.out.println("Test has started for second time");
 		softAssert.assertTrue(true);
 		softAssert.assertAll();
 	}
